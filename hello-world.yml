@@ -1,0 +1,7 @@
+---
+- name: hello-world example
+  hosts: local-server
+  tasks:
+    - name: hello server
+      debug:
+        msg:  "hello-world"
